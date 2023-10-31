@@ -14,18 +14,13 @@ Descreva os objetivos do seu projeto e como ele funciona.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Q1](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/2406.png?raw=true)
+![Q2](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/435.png?raw=true)
+![Q3](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/646.png?raw=true)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
+**Linguagem**: C e Python3<br>
+Para rodar o código basta visitar o site <a href="https://leetcode.com/"> leetCode </a> e buscar pelos exercícios aqui resolvidos.
 
 
 
