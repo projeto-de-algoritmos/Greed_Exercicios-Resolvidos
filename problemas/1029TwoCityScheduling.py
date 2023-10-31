@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def ordenacao_diferenca(self, pair):
         return abs(pair[0] - pair[1])
@@ -5,22 +7,23 @@ class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         costs.sort(key=self.ordenacao_diferenca)
 
-        n1 = len(costs) / 2
-        n2 = len(costs) / 2
+        a = len(costs) / 2
+        b = len(costs) / 2
 
-        count = 0
-        for item in reversed(costs):
-            if(item[0] < item[1]):
-              if(n1 == 0):
-                count = count + item[1]
+        total_cost = 0
+        for cost_a, cost_b in reversed(costs):
+            if(cost_a < cost_b):
+              if(a > 0):
+                total_cost += cost_a
+                a = a - 1
               else:
-                count = count + item[0]
-                n1 = n1 - 1
-            else:
-              if(n2 == 0):
-                count = count + item[0]
-              else:
-                count = count + item[1]
-                n2 = n2 - 1
+                total_cost += cost_b
                 
-        return count
+            else:
+              if(b > 0):
+                total_cost += cost_b
+                b = b - 1
+              else:
+                total_cost += cost_a
+
+        return total_cost
