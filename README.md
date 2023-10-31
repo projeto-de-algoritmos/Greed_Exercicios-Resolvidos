@@ -14,9 +14,9 @@ Descreva os objetivos do seu projeto e como ele funciona.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
-![Q1]([URL_da_Imagem](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/2406.png))
-![Q2]([URL_da_Imagem](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/435.png))
-![Q3]([URL_da_Imagem](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/646.png))
+![Q1](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/2406.png?raw=true)
+![Q2](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/435.png?raw=true)
+![Q3](https://github.com/projeto-de-algoritmos/Greed_Exercicios-Resolvidos/blob/master/images/646.png?raw=true)
 
 ## Instalação 
 **Linguagem**: C e Python3<br>
